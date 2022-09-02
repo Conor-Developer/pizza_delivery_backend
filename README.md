@@ -36,7 +36,7 @@ To explore the codebase follow this set-up:
 ### Database Setup
 
 - You must open psql from the root directory of this project!
-- 
+
 1. Connect to psql
 2. Create the database using the psql command CREATE DATABASE pizza;
 3. Connect to the database using the pqsl command \c pizza;
@@ -52,3 +52,7 @@ To explore the codebase follow this set-up:
 3. Variable Name: DB_PASS       Value: YOUR DATABASE PASS HERE
 4. Variable Name: DB_USERNAME   Value: YOUR DATABASE NAME HERE
 5. Variable Name: DB_URL        Value: jdbc:postgresql://localhost:5432/pizza
+
+### Start Server
+
+Run server: src -> main -> java -> Run File: PizzaDeliveryBackendApplication
