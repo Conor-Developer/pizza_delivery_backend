@@ -17,7 +17,17 @@ public class Pizza {
     @JoinColumn(name="pizza_price_id")
     private Price prices;
 
+    private String image;
+
     public Pizza(){
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 
     public Price getPrices() {
