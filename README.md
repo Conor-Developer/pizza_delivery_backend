@@ -40,8 +40,8 @@ To explore the codebase follow this set-up:
 1. Connect to psql
 2. Create the database using the psql command CREATE DATABASE pizza;
 3. Connect to the database using the pqsl command \c pizza;
-4. Run the query we have saved in the file from the root directory of this project by running \i ./db/migrations/01_create_pizza_table.sql
-5. Run the query we have saved in the file from the root directory of this project by running \i ./db/migrations/02_create_pizza_price_table.sql
+4. Run the query we have saved in the file from the root directory of this project by running \i ./db/migrations/01_create_pizza_price_table.sql
+5. Run the query we have saved in the file from the root directory of this project by running \i ./db/migrations/02_create_pizza_table.sql
 6. Run the query we have saved in the file from the root directory of this project by running \i ./db/migrations/03_add_data_to_pizza_price_table.sql
 7. Run the query we have saved in the file from the root directory of this project by running \i ./db/migrations/04_add_data_to_pizza_table.sql
 
